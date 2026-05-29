@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 //radhe@Mac Agents % npx playwright test --reporter=line,allure-playwright 
 //radhe@Mac Agents % allure generate ./allure-results --clean
 //radhe@Mac Agents % allure open ./allure-report
-//radhe@Mac Agents % npx playwright test --config=playwright.service.config.js --workers=5
+//radhe@Mac Agents % npx playwright test --config=playwright.service.config.js --workers=1
 
 
 test('test', async ({ page }) => {

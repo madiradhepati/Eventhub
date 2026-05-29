@@ -4,6 +4,7 @@ import { test, expect } from '@playwright/test';
 //radhe@Mac Agents % allure generate ./allure-results --clean
 //radhe@Mac Agents % allure open ./allure-report
 //radhe@Mac Agents % npx playwright test --config=playwright.service.config.js --workers=1
+//Sample tests
 
 
 test('test', async ({ page }) => {

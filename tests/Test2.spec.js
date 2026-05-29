@@ -9,7 +9,7 @@ test('test', async ({ page }) => {
   // Wait for the dashboard to load completely
   await page.waitForLoadState('networkidle');
 
-  // Use Regex for button names to ignore font-awesome icons and extra spaces
+  // Use Regex for button names to ignore font-awesome icons and extra spaces.
   await page.getByRole('button', { name: /Add To Cart/i }).nth(1).click();
   await page.getByRole('button', { name: /Cart/i }).first().click();
   await page.getByRole('button', { name: /Checkout/i }).click();
